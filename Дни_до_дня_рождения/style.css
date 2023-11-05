@@ -1,0 +1,70 @@
+*{
+    margin: 0 auto;
+    box-sizing: border-box;
+    /* border: 1px solid */
+}
+
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.container {
+	width: 50vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bday {
+    display: flex;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    justify-content: space-between;
+}
+.title {
+    font-size: 2.5rem;
+    color: rgb(56, 214, 3);
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+}
+.bdate {
+    width: 10rem;
+    height: 2.2rem;
+    border-radius: 5px;
+    border: 1px solid;
+    border-color: rgb(56, 214, 3);
+    cursor: pointer;
+}
+
+.btn {
+    width: 15rem;
+    height: 2.2rem;
+    color:rgb(9, 9, 9);
+    font-size: 1.2rem;
+    background-color: rgb(56, 214, 3);
+    border-radius: 5px;
+    border: 1px dotted;
+    border-color: rgb(56, 214, 3);
+    cursor: pointer;
+    margin-top: 1.5rem;
+}
+.btn:hover {
+    background-color: rgb(252, 166, 5);
+}
+.result {
+    color: rgb(252, 166, 5);
+    font-size: 1.4rem;
+    font-weight: 500;
+    padding: 8px;
+    margin: 4px 0;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.error-message {
+    display: none;
+    color: red;
+    font-size: 14px;
+}
+
+
